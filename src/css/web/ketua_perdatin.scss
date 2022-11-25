@@ -1,0 +1,32 @@
+$xs-breakpoint: 718px;
+$sm-breakpoint: 1024px;
+$md-breakpoint: 1439px;
+$lg-breakpoint: 1920px;
+
+.ketua-text-align {
+  text-align: center;
+}
+
+@media (min-width: $xs-breakpoint) {
+  .ketua-text-align {
+    text-align: center;
+  }
+}
+
+@media (min-width: $sm-breakpoint) {
+  .ketua-text-align {
+    text-align: center;
+  }
+}
+
+@media (min-width: $md-breakpoint) {
+  .ketua-text-align {
+    text-align: left;
+  }
+}
+
+@media (min-width: $lg-breakpoint) {
+  .ketua-text-align {
+    text-align: left;
+  }
+}

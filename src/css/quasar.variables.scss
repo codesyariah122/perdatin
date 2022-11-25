@@ -1,0 +1,106 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+$default: #ffffff;
+$primary: #29176d;
+$secondary: #26a69a;
+$accent: #9c27b0;
+
+$dark: #1d1d1d;
+$dark-page: #121212;
+
+$positive: #21ba45;
+$negative: #c10015;
+$info: #31ccec;
+$warning: #f2c037;
+$color-link: #0078ff;
+
+$laptop: "only screen and (min-width: 1200px) and (max-width: 1600px)";
+$lg: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$md: "only screen and (min-width: 768px) and (max-width: 991px)";
+$xs: "(max-width: 767px)";
+$sm: "only screen and (min-width: 576px) and (max-width: 767px)";
+
+// Extra Responsive
+
+$medium_device: "only screen and (min-width: 992px) and (max-width: 1200px)";
+$tab_device: "only screen and (min-width: 768px) and (max-width: 991px)";
+$large_mobile: "only screen and (min-width: 576px) and (max-width: 767px)";
+$tab: "(max-width: 991px)";
+$small_mobile: "(max-width: 576px)";
+$xs_mobile: "(max-width: 420px)";
+$sm_mobile: "only screen and (min-width: 421px) and (max-width: 575px)";
+$big_screen: "only screen and (min-width: 1200px) and (max-width: 1440px)";
+$extra_big_screen: "only screen and (min-width: 1200px) and (max-width: 3640px)";
+
+// More Extra Responsive
+$large_device_2: "(min-width: 1501px) and (max-width: 1700px)";
+$large_device: "(min-width: 1200px) and (max-width: 1500px)";
+$mid_device: "(min-width: 992px) and (max-width: 1200px)";
+$tablet_device: "(min-width: 768px) and (max-width: 991px)";
+$mobile_device: "(max-width: 767px)";
+$large_mobile: "only screen and (min-width: 480px) and (max-width: 767px)";
+
+$default: #ffffff;
+$second-default: #fafafa;
+$black: #000;
+$second-black: #374151;
+$default-gray: #4b5563;
+$gray: #414141;
+$second-gray: #4b5563;
+$button-gray: #cccccc;
+$nav-item: #414141;
+$primary-button: #00923f;
+$color: #243746;
+$color-profile: #fff;
+$color-follower: #fff;
+$color-primary: #00923f;
+$text-link: #0905d8;
+$color-secondary: #0e2233;
+$color-link: #0078ff;
+$bg: #f3f5f4;
+$bg-card: #f3f5f4;
+$bg-primary: #00923f;
+$bg-second-primary: #00923f;
+$bg-secondary: #666666;
+$bg-third: rgba(63, 0, 255, 0.7);
+$bg-fourt: rgba(25, 27, 25, 0.7);
+$border-color: #ddd;
+$color-management: #fff;
+$color-cookie: #fff;
+$bg-cookie: #672011;
+$bg-cookie-consent: #c5bcbb;
+$bg-jumbo-width: 100%;
+$bg-jumbo-height: 120vh;
+$primary-font: "Open Sans";
+$idr-color: #ffad33;
+$testimoni-card: #ffad33;
+$fire-brick: firebrick;
+$color-icon-primary: #0060cc;
+$bg-button-clean: #fafafa;
+$bg-button-gray: #ebebeb;
+$bg-blue-gray: #fafdfe;
+$bg-hover-first: #f7f7f7;
+$scroll-bar-bg: #00923f;
+$scroll-bar-color: #90a4ae;
+$jumbotron-bg: #f5f5f5;
+$scroll-top: #00923f;
+$bg-auth: #f3f4f6;
+$lightbox: #242424;
+
+// Font Family
+$font_1: "Roboto", sans-serif;
+$font_2: "Roboto", sans-serif;
+
+$heading_color2: #000;
+$white_color: #fff;

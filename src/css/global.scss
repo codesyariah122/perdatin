@@ -1,0 +1,193 @@
+.text-decoration-none {
+  text-decoration: none;
+}
+.q-btn .q-focus-helper {
+  display: none;
+}
+
+.q-focusable .q-hoverable {
+  display: none;
+}
+.link-style {
+  &:hover {
+    color: $primary-button !important;
+    font-weight: 700;
+  }
+}
+
+// .router-link-active {
+// color: $primary-button !important;
+// font-weight: 700;
+// }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* quicksand-500 - latin */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  src: url("fonts/quicksand-v30-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/quicksand-v30-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/quicksand-v30-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/quicksand-v30-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("fonts/quicksand-v30-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("fonts/quicksand-v30-latin-500.svg#Quicksand") format("svg"); /* Legacy iOS */
+}
+/* quicksand-regular - latin */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/quicksand-v30-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/quicksand-v30-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/quicksand-v30-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/quicksand-v30-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("fonts/quicksand-v30-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("fonts/quicksand-v30-latin-regular.svg#Quicksand") format("svg"); /* Legacy iOS */
+}
+/* quicksand-600 - latin */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  src: url("fonts/quicksand-v30-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/quicksand-v30-latin-600.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/quicksand-v30-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/quicksand-v30-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("fonts/quicksand-v30-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("fonts/quicksand-v30-latin-600.svg#Quicksand") format("svg"); /* Legacy iOS */
+}
+/* quicksand-700 - latin */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/quicksand-v30-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/quicksand-v30-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/quicksand-v30-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/quicksand-v30-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("fonts/quicksand-v30-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("fonts/quicksand-v30-latin-700.svg#Quicksand") format("svg"); /* Legacy iOS */
+}
+
+body {
+  font-family: "Quicksand", Fallback, sans-serif;
+}
+
+// breakpoint variable, from https://quasar.dev/style/breakpoints
+// Except the xs one because I think 600px is too small
+$xs-breakpoint: 718px;
+$sm-breakpoint: 1024px;
+$md-breakpoint: 1439px;
+$lg-breakpoint: 1920px;
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: $xs-breakpoint) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: $sm-breakpoint) {
+  .container,
+  .container-sm,
+  .container-md {
+    max-width: 920px;
+  }
+}
+
+@media (min-width: $md-breakpoint) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: $lg-breakpoint) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1440px;
+  }
+}
+
+.text-h7 {
+  font-size: 18px;
+  line-height: 2rem;
+  letter-spacing: 0.0125em;
+}

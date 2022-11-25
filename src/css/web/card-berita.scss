@@ -1,0 +1,40 @@
+.truncate {
+  text-transform: capitalize;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 3);
+  -webkit-box-orient: vertical;
+  word-break: var(--word-break, "none");
+  overflow: hidden;
+  hyphens: auto;
+  text-align: var(--align, left);
+
+  --is-single-line: 1 - Clamp(0, Calc(var(--line-clamp) - 1), var(--line-clamp));
+  --delay: Calc(-1s * (var(--is-single-line, 1) - 1));
+  animation: states 1s var(--delay) paused;
+
+  @keyframes states {
+    0% {
+      word-break: break-all;
+    }
+  }
+}
+
+.truncate2 {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 2);
+  -webkit-box-orient: vertical;
+  word-break: var(--word-break, "none");
+  overflow: hidden;
+  hyphens: auto;
+  text-align: var(--align, left);
+
+  --is-single-line: 1 - Clamp(0, Calc(var(--line-clamp) - 1), var(--line-clamp));
+  --delay: Calc(-1s * (var(--is-single-line, 1) - 1));
+  animation: states 1s var(--delay) paused;
+
+  @keyframes states {
+    0% {
+      word-break: break-all;
+    }
+  }
+}
